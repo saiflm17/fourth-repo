@@ -4,7 +4,7 @@
 
 - COMMAND: git remote add origin REPOURL
 
-- COMMAND: git remote -v . which repository have to integrate.
+- COMMAND: git remote -v : which repository have to integrate.
 
 - After am initializing my Repository by using Command: git init.
 
@@ -29,4 +29,52 @@
 #STEP-3: USE PULL REQUESTS TO MERGE.
 
 - After in my GitHub am using COMAPRE & PULL REQUEST for merging branch to branch.
+
+- like base and compare in Github.
+
+- In Local Platform we are using COMMAND: git merge branch_name.
+
+- here merging means changes in one branch to another branch.
+
+
+#STEP-4: USE .gitignore and tags.
+
+- GIT IGNORE: It means when you don't want to track some specific files then we use a file called .gitignore.
+
+- here am creating some files like touch aws azure gcp in dev branch.
+
+     1.COMMAND: git status  (To check the status of files).
+
+- now am implementing  .GITIGNORE 
+
+- vim .gitignore (aws azure)  so am hiding some files.
+
+- After you have to check that those are hidden files.
+
+
+GIT TAGS: 1.These tags are labels that you can place on specific commits in a git repository. 
+          2. These tags provide a way to give meaningful names to important points in the project history.
+
+
+- COMMAND: git log (To check the list of commits).
+
+- In my server 10 commits are there. those 10 commits am dividing  for suppose 3commits for bus tags, 4commits for  movie tags, 3commits for metro tags.
+
+- COMMAND: git tag tag_name (To create a tag).
+
+- COMMAND: git tag -m "message" tag_name.
+
+- COMMAND: git tag (to check the list of tags).
+
+- COMMAND: git show tag_name (To see the details of tag)
+
+- COMMAND: git tag -d tag_name (To delete the tag).
+
+
+#STEP-5: NOW AM PUSHING THOSE TAGS INTO GITHUB.
+
+- COMMAND: git push origin bustag movietag metrotag.
+
+
+
 
