@@ -1,1 +1,32 @@
+                                                    DOCUMENT FOR THE VERSION CONTROL SYSTEM
+
+#STEP-1: am creating a New Repository in GitHub. After am installing git in my server COMMAND: yum install git -y. After cloning into my local server.
+
+- COMMAND: git remote add origin REPOURL
+
+- COMMAND: git remote -v . which repository have to integrate.
+
+- After am initializing my Repository by using Command: git init.
+
+
+#STEP-2: Now am creating some branches 
+
+- COMMAND: git branch branch_name
+
+   1. git branch dev
+
+   2. git branch feature
+
+   3. git branch main.
+
+- we can list of branches COMMAND: git branch.
+
+- After am pushing those branches from local to central by using:
+
+    1.COMMAND: git push -u origin dev feature main  OR  git push -u origin --all
+
+
+#STEP-3: USE PULL REQUESTS TO MERGE.
+
+- After in my GitHub am using COMAPRE & PULL REQUEST for merging branch to branch.
 
